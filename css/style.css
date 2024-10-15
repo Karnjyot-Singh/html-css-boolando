@@ -8,6 +8,32 @@ img {
     max-width: 100%;
 }
 
+.header {
+    background-color: orangered;
+    padding: 20px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    display: flex;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+
+ul {
+    list-style: none;
+    gap: 10px;
+}
+
 /* COMMON */
 /* Layout */
 .section {
@@ -15,14 +41,14 @@ img {
    
 }
 
+.logo {
+
+}
+
 .container {
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
-
-    /* debug */
-    border: 1px solid lightgreen;
-    min-height: 300px;
 }
 
 .row {
@@ -78,5 +104,28 @@ img {
 }
 
 .card-image .like:hover {
+    color: red;
+}
+
+.tags {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    font-size: .8rem;
+}
+
+.tags .discount {
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+.tags .eco {
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+.price .discounted {
     color: red;
 }
